@@ -1,3 +1,9 @@
+/* html */
+
+html {
+  height: auto;
+}
+
 /* body */
 body {
   background-image: url("https://images.squarespace-cdn.com/content/v1/5f5da1ecc6643f7e24afe3ae/b1c44872-86ad-4ddf-a4dc-b7088e8b97bb/gradient2.png?format=1500w");
@@ -5,19 +11,28 @@ body {
   background-size: cover;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 400;
-  height: 690px;
+  background-repeat: none;
+  display: block;
+  margin: 20px;
 }
 
 /* media queries */
-
+@media (max-width: 960px) {
+  body {
+    background-size: cover;
+    height: 750px;
+    background-repeat: none;
+  }
+}
 /* order image */
 
 .image {
   width: 360px;
   border-radius: 15px 15px 0 0;
   position: relative;
-  top: 70px;
+  top: 40px;
   padding-bottom: 40px;
+  margin: auto;
 }
 
 /* order body */
