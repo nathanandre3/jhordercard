@@ -14,16 +14,18 @@ body {
   background-repeat: none;
   display: block;
   margin: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 /* media queries */
 @media (max-width: 960px) {
   body {
     background-size: cover;
-    height: 700px;
+    height: 820px;
     background-repeat: none;
-    margin: 70px;
+    margin: 0;
+    padding-top: 100px;
+}
   }
 
   .image {
