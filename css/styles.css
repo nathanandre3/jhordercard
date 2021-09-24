@@ -1,0 +1,108 @@
+/* body */
+body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5f5da1ecc6643f7e24afe3ae/b1c44872-86ad-4ddf-a4dc-b7088e8b97bb/gradient2.png?format=1500w");
+  text-align: center;
+  background-size: cover;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  height: 690px;
+}
+
+/* media queries */
+
+/* order image */
+
+.image {
+  width: 360px;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  top: 70px;
+  padding-bottom: 40px;
+}
+
+/* order body */
+
+.order-summary {
+  background-color: #fff;
+  position: relative;
+  width: 360px;
+  margin: auto;
+  height: 400px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 1px 3px 4px #ebebf1;
+}
+
+.order-title {
+  padding: 45px 10px 0 0;
+  font-weight: 600;
+}
+
+.thankyou-text {
+  color: #8f8f8f;
+  font-size: 0.9em;
+  padding: 15px 27px 10px;
+  line-height: 1.5;
+}
+
+/* order price */
+
+.order-price {
+  background-color: #f5f7ff;
+  padding: 10px;
+  border-radius: 15px;
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.scissors {
+  position: relative;
+  width: 50px;
+  right: 45px;
+  top: -2.5px;
+  border-radius: 50px;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  margin-left: -36px;
+  top: 6px;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.li-title {
+  font-weight: 600;
+}
+
+.change-order {
+  position: relative;
+  left: 45px;
+  font-size: 0.8em;
+  top: -5px;
+}
+/* Order button */
+.payment-button {
+  background-color: #fad7da;
+  font-size: 0.9em;
+  width: 80%;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 25px #fad7da;
+  transition: 0.3s;
+}
+
+.payment-button:hover {
+  background-color: #ffe6e6;
+}
+
+/* Cancel order */
+
+h5 {
+  font-size: 0.75em;
+  margin-top: 20px;
+  cursor: pointer;
+}

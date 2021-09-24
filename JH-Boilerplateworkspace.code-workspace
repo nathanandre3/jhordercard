@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../My Projects/Boilerplate Code"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "JH Order Card"
+  }
+}
